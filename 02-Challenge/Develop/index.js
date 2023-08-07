@@ -25,27 +25,27 @@ const questions = [
         type: "input",
         name: "How?",
         message: "How is the app used?  Give instructions.",
-    }
+    },
     {
         type: "input",
         name: "License",
         message: "what license is being used? (ie...MIT)",
-    }
+    },
     {
-        type: "input"
-        name: "Tests"
+        type: "input",
+        name: "Tests",
         message: "What commands are needed to test this app?",
-    }
+    },
     {
-        type: "input"
-        name: "Username"
+        type: "input",
+        name: "Username",
         message: "What is your Github username?",  
-    }
+    },
     {
-        type: "input"
-        name: "Contact INFO"
+        type: "input",
+        name: "Contact INFO",
         message: "Wha is your contact info for futur inquiries?",
-    }
+    },
 ];
 
 // TODO: Create a function to write README file
