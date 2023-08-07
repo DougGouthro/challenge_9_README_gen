@@ -16,10 +16,7 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ANYTHING WE WANT
-
-  In order to use a variable, we say 'dollar curlybraces'
-  and put a variable in it like this
+  
 
   ${data.description}
 

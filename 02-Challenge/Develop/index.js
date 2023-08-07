@@ -18,13 +18,33 @@ const questions = [
     },
     {
         type: "input",
-        name: "screenshot",
-        message: "Provide the path to the image you want as the screenshot.",
+        name: "Tools",
+        message: "What do you need to install to run this app (ie...dependencies)?",
     },
     {
         type: "input",
-        name: "link",
-        message: "Provide the URL where you can access your deployed APP.",
+        name: "How?",
+        message: "How is the app used?  Give instructions.",
+    }
+    {
+        type: "input",
+        name: "License",
+        message: "what license is being used? (ie...MIT)",
+    }
+    {
+        type: "input"
+        name: "Tests"
+        message: "What commands are needed to test this app?",
+    }
+    {
+        type: "input"
+        name: "Username"
+        message: "What is your Github username?",  
+    }
+    {
+        type: "input"
+        name: "Contact INFO"
+        message: "Wha is your contact info for futur inquiries?",
     }
 ];
 
