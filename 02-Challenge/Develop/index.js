@@ -13,13 +13,13 @@ const questions = [
     },
     {
         type: "input",
-        name: "discription",
-        message: "What is the purpose of your project?",
+        name: "linkAdd",
+        message: "Do you want to add a link to your project?",
     },
     {
         type: "input",
-        name: "Tools",
-        message: "What do you need to install to run this app (ie...dependencies)?",
+        name: "link",
+        message: "Enter your link.",
     },
     {
         type: "input",
@@ -29,7 +29,7 @@ const questions = [
     {
         type: "input",
         name: "License",
-        message: "what license is being used? (ie...MIT)",
+        message: "What license is being used? (ie...MIT)",
     },
     {
         type: "input",
@@ -44,7 +44,7 @@ const questions = [
     {
         type: "input",
         name: "Contact INFO",
-        message: "Wha is your contact info for futur inquiries?",
+        message: "What is your contact info for futur inquiries?",
     },
 ];
 
