@@ -51,7 +51,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     console.log("WHATS THE FILENAME:", fileName)
- fs.writeFileSync("Answers",generateMarkdown(data))
+ fs.writeFileSync("readme.md",generateMarkdown(data))
 
 }
 
